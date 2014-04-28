@@ -8,3 +8,8 @@ padding-bottom: 0px;
 padding-left: 0px;
 padding-right: 0px;
 }
+
+.bg{
+    background:url('/images/tulpe.png') no-repeat center center;
+    background-size:100% auto;
+}

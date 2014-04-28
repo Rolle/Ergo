@@ -47,11 +47,47 @@
     </header-->
 
     <div class="container" id='main-content'>
-      <!--div class="row"-->
-        <!--div class="col-md-12"-->
-          <%= yield %>
-        <!--/div-->
-      <!--/div-->
+      <div class="page-header ">   
+          <div class="row">        
+            <div class="col-md-4">
+                <img src="/images/ergo_mit_herz_small.png" />
+            </div>
+            <div class="col-md-8">
+                <div class="row">
+                  <h1><p class="text-success">Herzlich Willkommen!</p></h1>
+                </div>
+                <div class="row">
+                  <h4><p class="text-success">Schön, dass Sie zu uns gefunden haben…</p></h4>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <!--div class="col-md-4 bg"-->
+        <div class="col-md-4">
+          <div class="row">
+            <p class="text-success">
+              <b>Praxis für Ergotherapie und Lerntherapie</b><br/>
+              Carmen Müller<br/>
+              Staatl. anerkannte Ergotherapeutin<br/>
+              <br/>
+              <b>Praxis Kell am See</b><br/>
+              Gartenfeldstraße 24<br/>
+              54427 Kell am See, Tel. 06589-919129<br/>
+              <br/>
+              <b>Therapiezentrum Petrisberg</b><br/>
+              Rudi-Schillings-Straße 7<br/>
+              54296 Trier,  Tel. 0651-170491<br/>
+              <br/>
+              <a href="mailto:info@ergo-mit-herz.de">info@ergo-mit-herz.de</a><br/>
+            </p>
+          </div>
+        </div>        
+        <div class="col-md-8">
+            <%= yield %>
+        </div>
+      </div-->
     </div>
 
     <footer class="bs-docs-footer" role="contentinfo">
