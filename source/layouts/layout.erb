@@ -15,7 +15,12 @@
   </head>
   
   <body data-spy="scroll" data-target=".bs-docs-sidebar">
-    <!--div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <header class="jumbotron subhead">
+      <div class="container">
+        <img class="image-responsive" src="/images/ergo_mit_herz_small.png" >
+      </div>
+    </header>
+    <div class="navbar-simple navbar-default" role="navigation">
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -24,7 +29,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/"><img class="iamge-responsive" src="/images/logo_very_small1.png"></img>   Ergotherapie mit Herz</a>
+          <!--a class="navbar-brand" href="/"><img class="image-responsive" src="/images/logo_very_small1.png"></img>   Ergotherapie mit Herz</a-->
         </div>
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -38,55 +43,13 @@
           </ul>
         </div>
       </div>
-    </div-->
-
-    <!--header class="jumbotron subhead">
-      <div class="container">
-        <img src="/images/logo_small.png">
-      </div>
-    </header-->
-
+    </div>
     <div class="container" id='main-content'>
-        <div class="row page-header">
-          <div class="col-md-4"><img src="/images/ergo_mit_herz_small.png" /></div>
-          <div class="col-md-8">
-              <h1><p class="text-success" style="font-family: 'Indie Flower', 'cursive';" >Herzlich Willkommen!</p></h1>
-            
-            <div class="row">
-              <h4><p style="font-family: 'Indie Flower', 'cursive';" class="text-success">Schön, dass Sie zu uns gefunden haben…</p></h4>
-                <ul class="nav nav-pills">
-                  <li id="index" ><a href="index.html">| Praxis</a></li>
-                  <li id="ergotherapie"><a href="ergotherapie.html">| Ergotherapie</a></li>
-                  <li id="team"><a href="team.html">| Team</a></li>
-                  <li id="anfahrt"><a href="anfahrt.html">| Anfahrt</a></li>
-                  <li id="links"><a href="links.html">| Links</a></li>
-                  <li id="kontakt"><a href="kontakt.html">| Kontakt</a></li>
-                </ul>
-            </div>
+        <div class="row">       
+          <!--div class="col-md-4"></div-->      
+          <div class="col-md-12">
+              <%= yield %>
           </div>
-        </div>
-        <div class="row">             
-          <div class="col-md-4">
-              
-            <p class="text-success">
-            <strong>Praxis für Ergotherapie und Lerntherapie</strong><br/>
-            Carmen Müller<br/>
-            Staatl. anerkannte Ergotherapeutin<br/>
-            <br/>
-            <strong>Praxis Kell am See</strong><br/>
-            Gartenfeldstraße 24<br/>
-            54427 Kell am See<br/>
-            Telelfon 06589-919129<br/>
-            <br/>
-            <strong>Therapiezentrum Petrisberg</strong><br/>
-            Rudi-Schillings-Straße 7<br/>
-            54296 Trier<br/>
-            Telefon 0651-170491<br/>
-            <br/>
-            <a href="mailto:info@ergo-mit-herz.de">info@ergo-mit-herz.de</a><br/>
-            </p>
-          </div>
-          <div class="col-md-8"><%= yield %></div>
         </div>
     </div>
 

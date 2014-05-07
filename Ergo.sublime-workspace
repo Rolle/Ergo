@@ -107,23 +107,23 @@
 			"file": "source/index.html.erb",
 			"settings":
 			{
-				"buffer_size": 782,
+				"buffer_size": 463,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "source/team.html.erb",
-			"settings":
-			{
-				"buffer_size": 1111,
-				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "source/layouts/layout.erb",
 			"settings":
 			{
-				"buffer_size": 4065,
+				"buffer_size": 3360,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "source/stylesheets/my.css",
+			"settings":
+			{
+				"buffer_size": 3194,
 				"line_ending": "Windows"
 			}
 		}
@@ -159,6 +159,7 @@
 	},
 	"file_history":
 	[
+		"/home/roland/projects/Ergo/source/team.html.erb",
 		"/home/roland/projects/Ergo/source/anfahrt.html.erb",
 		"/home/roland/projects/Ergo/source/stylesheets/my.css",
 		"/home/roland/projects/Ergo/source/links.html.erb",
@@ -274,7 +275,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 25.0
 	},
 	"find_in_files":
 	{
@@ -402,7 +403,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -411,15 +412,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 782,
+						"buffer_size": 463,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								19,
-								19
+								416,
+								416
 							]
 						],
 						"settings":
@@ -431,53 +432,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "source/team.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1111,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								21,
-								21
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 45.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "source/layouts/layout.erb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4065,
+						"buffer_size": 3360,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2140,
-								2140
+								948,
+								948
 							]
 						],
 						"settings":
@@ -487,10 +459,40 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 585.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "source/stylesheets/my.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3194,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3194,
+								3194
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1568.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -498,7 +500,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 25.0
 	},
 	"input":
 	{
@@ -538,7 +540,7 @@
 	"project": "Ergo.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 46.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -576,7 +578,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 312.0,
+	"side_bar_width": 202.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
