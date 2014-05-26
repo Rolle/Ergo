@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"m",
+				"margin-bottom"
+			],
+			[
 				"result_aar",
 				"result_array_last"
 			],
@@ -115,7 +119,7 @@
 			"file": "source/layouts/layout.erb",
 			"settings":
 			{
-				"buffer_size": 3360,
+				"buffer_size": 3347,
 				"line_ending": "Windows"
 			}
 		},
@@ -123,8 +127,16 @@
 			"file": "source/stylesheets/my.css",
 			"settings":
 			{
-				"buffer_size": 3194,
+				"buffer_size": 3410,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "source/stylesheets/docs.css",
+			"settings":
+			{
+				"buffer_size": 14297,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -275,7 +287,7 @@
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -292,6 +304,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"background-image",
+			"border-bottome",
+			"40px",
+			"background-image",
+			"background",
 			"#FF0505",
 			"#ff4b4b",
 			"#ff5c00",
@@ -403,7 +420,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -432,7 +449,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -441,15 +458,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3360,
+						"buffer_size": 3347,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								948,
-								948
+								819,
+								819
 							]
 						],
 						"settings":
@@ -462,7 +479,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -471,15 +488,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3194,
+						"buffer_size": 3410,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3194,
-								3194
+								421,
+								421
 							]
 						],
 						"settings":
@@ -489,10 +506,38 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1568.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "source/stylesheets/docs.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14297,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1196,
+								1196
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 9043.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
