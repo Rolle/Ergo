@@ -15,8 +15,9 @@
   </head>
   
   <body data-spy="scroll" data-target=".bs-docs-sidebar">
+    <!--div id="wrap"-->
     <header class="jumbotron subhead">
-      <div class="container">
+      <div class="container-fluid">
         <img class="image-responsive" src="/images/logo_small.png" >
       </div>
     </header>
@@ -34,17 +35,36 @@
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
+          <li id="index"><a href="index.html">| Startseite</a></li>
             <li id="index"><a href="index.html">| Praxis</a></li>
-            <li id="ergotherapie"><a href="ergotherapie.html">| Ergotherapie</a></li>
             <li id="team"><a href="team.html">| Team</a></li>
-            <li id="anfahrt"><a href="anfahrt.html">| Anfahrt</a></li>
+            <li class="dropdown" id="ergotherapie-menu" >
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">| Ergotherapie <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="ergotherapie.html">Was ist Ergotherapie</a></li>
+                <li><a href="ergotherapie.html">Pädiatrie/Kinderheilkunde</a></li>
+                <li><a href="ergotherapie.html">Psychatrie</a></li>
+                <li><a href="ergotherapie.html">Orthopädie / Unfallchirurgie</a></li>
+                <li><a href="ergotherapie.html">Neurologie</a></li>
+                <li><a href="ergotherapie.html">Eindrücke Ergotherapie</a></li>
+              </ul>
+            </li>
+            </li>
+            <li class="dropdown" id="zusatzangebot-menu" >
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">| Zusatzangebot <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="ergotherapie.html">Linkshänderberatung und Überprüfung/Training</a></li>
+                <li><a href="ergotherapie.html">Krisenberatung</a></li>
+                <li><a href="ergotherapie.html">Energetisches Neurofeedback</a></li>
+              </ul>
+            </li>
             <li id="links"><a href="links.html">| Links</a></li>
             <li id="kontakt"><a href="kontakt.html">| Kontakt</a></li>
           </ul>
         </div>
       </div>
     </div>
-    <div class="container" id='main-content'>
+    <div class="container-fluid" id='main-content'>
         <div class="row">       
           <!--div class="col-md-4"></div-->      
           <div class="col-md-12">
@@ -52,15 +72,34 @@
           </div>
         </div>
     </div>
-
-    <footer class="bs-docs-footer" role="contentinfo">
-      <p>Ergotherapie mit Herz!</p>
-      <p>
-        <a href = "/kontakt.html"><i class="icon-user"></i> <u>Kontakt</u><span class="divider"> | </span>
-        <a href = "/kontakt.html"><i class="icon-comment"></i> <u>Impressum</u><span class="divider"> | </span>
-        <a href="mailto:info@ergo-mit-herz.de"><i class="icon-envelope"></i> <u>info@ergo-mit-herz.de</u></a><span class="divider">
-      </p>
-    </footer>
+<!--/div-->
+    <div id="footer"> 
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            Carmen Müller, Praxis für Ergotherapie und Lerntherapie
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            Praxis Kell am See<br/>
+            Gartenfeldstrasse 23<br/>
+            54427 Kell am See<br/>
+            Tel. 06589 919129
+          </div>
+          <div class="col-md-4">
+            Therapiezentrum Petrisberg<br/>
+            Rudi Schillings-Strasse 7<br/>
+            54296 Trier<br/>
+            Tel. 0651 17044091
+          </div>
+          <div class="col-md-4">
+            email: <a href="mailto:info@ergo-mit-herz.de"><i class="icon-envelope"></i> <u>info@ergo-mit-herz.de</u></a><br/><br/><br/>
+            Impressum
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 
   <a href="#" class="scrollup">Scroll</a>
