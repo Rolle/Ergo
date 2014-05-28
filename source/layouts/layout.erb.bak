@@ -34,8 +34,8 @@
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-          <li id="index" class="active"><a href="index.html">| Startseite</a></li>
-            <li id="praxis"><a href="index.html">| Praxis</a></li>
+          <li id="index"><a href="index.html">| Startseite</a></li>
+            <li id="index"><a href="index.html">| Praxis</a></li>
             <li id="team"><a href="team.html">| Team</a></li>
             <li class="dropdown" id="ergotherapie-menu" >
               <a class="dropdown-toggle" data-toggle="dropdown" href="#">| Ergotherapie <b class="caret"></b></a>
@@ -70,44 +70,35 @@
           </div>
         </div>
     </div>
-    <footer class="bs-docs-footer" role="contentinfo"> 
-      <div id="footer"> 
-        <div class="container-fluid">
-          <section>
-            <div class="row">.</div>
-            <div class="row">.</div>
-            <div class="row">.</div>
-            <div class="row">.</div>
-            <div class="row">.</div>
-            <div class="row">.</div>
-            <div class="row">.</div>
-            <div class="row">
-              <div class="col-md-12">
-                <strong>Carmen Müller, Praxis für Ergotherapie und Lerntherapie</strong>
-              </div>
+    <div id="footer"> 
+      <div class="container-fluid">
+        <section>
+          <div class="row">
+            <div class="col-md-12">
+              Carmen Müller, Praxis für Ergotherapie und Lerntherapie
             </div>
-            <div class="row">
-              <div class="col-md-4">
-                Praxis Kell am See<br/>
-                Gartenfeldstrasse 23<br/>
-                54427 Kell am See<br/>
-                Tel. 06589 919129
-              </div>
-              <div class="col-md-4">
-                Therapiezentrum Petrisberg<br/>
-                Rudi Schillings-Strasse 7<br/>
-                54296 Trier<br/>
-                Tel. 0651 17044091
-              </div>
-              <div class="col-md-4">
-                email: <a href="mailto:info@ergo-mit-herz.de"><i class="icon-envelope"></i> <u>info@ergo-mit-herz.de</u></a><br/><br/><br/>
-                Impressum
-              </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              Praxis Kell am See<br/>
+              Gartenfeldstrasse 23<br/>
+              54427 Kell am See<br/>
+              Tel. 06589 919129
             </div>
-          </section>
-        </div>
+            <div class="col-md-4">
+              Therapiezentrum Petrisberg<br/>
+              Rudi Schillings-Strasse 7<br/>
+              54296 Trier<br/>
+              Tel. 0651 17044091
+            </div>
+            <div class="col-md-4">
+              email: <a href="mailto:info@ergo-mit-herz.de"><i class="icon-envelope"></i> <u>info@ergo-mit-herz.de</u></a><br/><br/><br/>
+              Impressum
+            </div>
+          </div>
+        </section>
       </div>
-    </footer>
+    </div>
   </body>
 
   <a href="#" class="scrollup">Scroll</a>

@@ -1,13 +1,21 @@
 html,
 body {
-
+    font-family:  'Indie Flower', 'cursive';
+    font-size: 16px;
   background-color: white; 
-  background-image: url('/images/grass_small.png');
+  background-image: url('/images/grass_small1.png');
   background-position: center bottom;
   background-repeat: repeat-x;
   /* The html and body elements cannot have any padding or margin. */
 }
-
+.centered-text {
+    text-align:center
+}
+.center {
+    display:table-cell;
+    vertical-align:middle;
+    float:none;
+}
 /* Wrapper for page content to push down footer */
 
 
@@ -29,18 +37,12 @@ body {
     margin-bottom: 0px;
     /*background-image:url('/images/logo_small.png');*/
     background-size:514px 200px;
-    background-color: #B3B2B2; /*E7E7E7*/
+    background-color: #B3B2B2; /*#cccccc; E7E7E7*/
     /*background-repeat:repeat-x*/
 }
 .subhead {
     border-bottom:0px solid #ddd
 }
-/*.bs-docs-footer {
-    background:url('/images/gras.jpg') repeat-x bottom center;
-    background-size:100% auto;
-}*/
-
-
 
 .navbar-simple .brand {
     padding-top: 15px;
