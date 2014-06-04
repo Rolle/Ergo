@@ -1,13 +1,25 @@
 html,
 body {
-    font-family:  'Indie Flower', 'cursive';
+        font-family:  'Dosis', 'sans-serif';
     font-size: 16px;
+
+    /*font-family:  'Indie Flower';
+    font-size: 16px;*/
   background-color: white; 
   background-image: url('/images/grass_small1.png');
   background-position: center bottom;
   background-repeat: repeat-x;
   /* The html and body elements cannot have any padding or margin. */
 }
+
+.alternative_font {
+    font-family:  'Indie Flower';
+}
+
+.footer {
+    font-color: white;
+}
+
 .centered-text {
     text-align:center
 }

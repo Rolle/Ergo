@@ -6,6 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
     <title>Ergotherapie mit Herz!</title>
     <link href='http://fonts.googleapis.com/css?family=Dosis|Indie+Flower|Dancing+Script' rel='stylesheet' type='text/css'>
     <%= stylesheet_link_tag "bootstrap", "bootstrap-theme.min", "docs", "my"%>
@@ -34,31 +35,30 @@
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-          <li id="index" class="active"><a href="index.html">| Startseite</a></li>
-            <li id="praxis"><a href="index.html">| Praxis</a></li>
-            <li id="team"><a href="team.html">| Team</a></li>
-            <li class="dropdown" id="ergotherapie-menu" >
+            <li id="index" class="top-menu"><a href="index.html">| Startseite</a></li>
+            <li id="praxis" class="top-menu"><a href="praxis.html">| Praxis</a></li>
+            <li id="team" class="top-menu"><a href="team.html">| Team</a></li>
+            <li class="dropdown top-menu" id="ergotherapie" >
               <a class="dropdown-toggle" data-toggle="dropdown" href="#">| Ergotherapie <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="ergotherapie.html">Was ist Ergotherapie</a></li>
-                <li><a href="ergotherapie.html">Pädiatrie/Kinderheilkunde</a></li>
-                <li><a href="ergotherapie.html">Psychatrie</a></li>
-                <li><a href="ergotherapie.html">Orthopädie / Unfallchirurgie</a></li>
-                <li><a href="ergotherapie.html">Neurologie</a></li>
-                <li><a href="ergotherapie.html">Eindrücke Ergotherapie</a></li>
+                <li><a href="was_ist_ergotherapie.html">Was ist Ergotherapie</a></li>
+                <li><a href="paediatrie.html">Pädiatrie/Kinderheilkunde</a></li>
+                <li><a href="psychatrie.html">Psychatrie</a></li>
+                <li><a href="orthopaedie.html">Orthopädie / Unfallchirurgie</a></li>
+                <li><a href="neurologie.html">Neurologie</a></li>
+                <li><a href="eindruecke.html">Eindrücke Ergotherapie</a></li>
               </ul>
-            </li>
-            </li>
-            <li class="dropdown" id="zusatzangebot-menu" >
+            </li>            
+            <li class="dropdown top-menu" id="zusatzangebot" >
               <a class="dropdown-toggle" data-toggle="dropdown" href="#">| Zusatzangebot <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="ergotherapie.html">Linkshänderberatung und Überprüfung/Training</a></li>
-                <li><a href="ergotherapie.html">Krisenberatung</a></li>
-                <li><a href="ergotherapie.html">Energetisches Neurofeedback</a></li>
+                <li><a href="linkshaenderberatung.html">Linkshänderberatung und Überprüfung/Training</a></li>
+                <li><a href="krisenberatung.html">Krisenberatung</a></li>
+                <li><a href="energetisches_neurofeedback.html">Energetisches Neurofeedback</a></li>
               </ul>
             </li>
-            <li id="links"><a href="links.html">| Links</a></li>
-            <li id="kontakt"><a href="kontakt.html">| Kontakt</a></li>
+            <li id="links" class="top-menu"><a href="links.html">| Links</a></li>
+            <li id="kontakt" class="top-menu"><a href="kontakt.html">| Kontakt</a></li>
           </ul>
         </div>
       </div>
@@ -72,15 +72,15 @@
     </div>
     <footer class="bs-docs-footer" role="contentinfo"> 
       <div id="footer"> 
-        <div class="container-fluid">
+        <div class="container-fluid" style="color: white">
           <section>
-            <div class="row">.</div>
-            <div class="row">.</div>
-            <div class="row">.</div>
-            <div class="row">.</div>
-            <div class="row">.</div>
-            <div class="row">.</div>
-            <div class="row">.</div>
+            <div class="row">&nbsp;</div>
+            <div class="row">&nbsp;</div>
+            <div class="row">&nbsp;</div>
+            <div class="row">&nbsp;</div>
+            <div class="row">&nbsp;</div>
+            <div class="row">&nbsp;</div>
+            <div class="row">&nbsp;</div>
             <div class="row">
               <div class="col-md-12">
                 <strong>Carmen Müller, Praxis für Ergotherapie und Lerntherapie</strong>
@@ -100,8 +100,8 @@
                 Tel. 0651 17044091
               </div>
               <div class="col-md-4">
-                email: <a href="mailto:info@ergo-mit-herz.de"><i class="icon-envelope"></i> <u>info@ergo-mit-herz.de</u></a><br/><br/><br/>
-                Impressum
+                email: <a href="mailto:info@ergo-mit-herz.de" style="color: #d50a28"><i class="icon-envelope"></i> <u>info@ergo-mit-herz.de</u></a><br/><br/><br/>
+                <a style="color: #d50a28" href="/impressum.html">Impressum</a>
               </div>
             </div>
           </section>
