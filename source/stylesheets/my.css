@@ -11,6 +11,17 @@ body {
   background-repeat: repeat-x;
   /* The html and body elements cannot have any padding or margin. */
 }
+.navbar-nav.nav-justified > li{
+    float:none;
+}
+
+/*.navbar-collapse.collapse {
+        text-align: center;
+}
+.navbar-nav {
+    display:inline-block;
+    float: none;    
+}*/
 
 .alternative_font {
     font-family:  'Indie Flower';
