@@ -2,15 +2,21 @@ html,
 body {
         font-family:  'Dosis', 'sans-serif';
     font-size: 16px;
+  background-color: white; 
 
     /*font-family:  'Indie Flower';
     font-size: 16px;*/
-  background-color: white; 
-  background-image: url('/images/grass_small1.png');
-  background-position: center bottom;
-  background-repeat: repeat-x;
+
   /* The html and body elements cannot have any padding or margin. */
 }
+
+.container-fluid-gras {
+  background-image: url('/images/grass.png');
+  background-position: center bottom;
+  background-repeat: repeat-x;
+  height: 200px;
+}
+
 .navbar-nav.nav-justified > li{
     float:none;
 }
@@ -27,8 +33,9 @@ body {
     font-family:  'Indie Flower';
 }
 
-.footer {
+.bs-docs-footer {
     font-color: white;
+    background-color: #95C11F;
 }
 
 .centered-text {
