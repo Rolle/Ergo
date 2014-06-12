@@ -17,6 +17,16 @@ body {
   height: 200px;
 }
 
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+          font-family:  'Dosis', 'sans-serif';
+    font-size: 16px;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
 .navbar-nav.nav-justified > li{
     float:none;
 }
