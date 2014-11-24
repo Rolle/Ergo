@@ -119,14 +119,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "source/layouts/layout.erb",
-			"settings":
-			{
-				"buffer_size": 7947,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -159,26 +151,30 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Projects/ruby/ergo/Ergo/source",
-		"/C/Projects/ruby/ergo/Ergo/source/layouts"
+		"/home/roland/projects/Ergo/source"
 	],
 	"file_history":
 	[
+		"/home/roland/projects/Ergo/source/team/carmen_mueller.html.erb",
+		"/home/roland/projects/Ergo/source/integrationsbegleitung.html.erb",
+		"/home/roland/projects/Ergo/source/kinderyoga.html.erb",
+		"/home/roland/projects/Ergo/source/team/christina_berens.html.erb",
+		"/home/roland/projects/Ergo/source/team/anita_becker.html.erb",
+		"/home/roland/projects/Ergo/source/team/eva_traut.html.erb",
+		"/home/roland/projects/Ergo/source/team/leo_pfeil.html.erb",
+		"/home/roland/projects/Ergo/source/team/cordula_meis.html.erb",
+		"/home/roland/projects/Ergo/source/psychatrie.html.erb",
+		"/home/roland/projects/Ergo/source/was_ist_ergotherapie.html.erb",
+		"/home/roland/projects/Ergo/source/krisenberatung.html.erb",
+		"/home/roland/projects/Ergo/source/energetisches_neurofeedback.html.erb",
 		"/C/Projects/ruby/ergo/Ergo/source/integrationsbegleitung.html.erb",
 		"/C/Projects/ruby/ergo/Ergo/source/kontakt.html.erb",
 		"/C/Projects/ruby/ergo/Ergo/source/layouts/layout.erb",
 		"/C/Projects/ruby/ergo/Ergo/source/impressum.html.erb",
 		"/C/Projects/ruby/ergo/Ergo/source/links.html.erb",
 		"/C/Projects/ruby/ergo/Ergo/source/kurzzeitbetreuung.html.erb",
-		"/home/roland/projects/Ergo/source/was_ist_ergotherapie.html.erb",
 		"/home/roland/projects/Ergo/source/layouts/layout.erb",
-		"/home/roland/projects/Ergo/source/team/cordula_meis.html.erb",
-		"/home/roland/projects/Ergo/source/team/eva_traut.html.erb",
-		"/home/roland/projects/Ergo/source/team/anita_becker.html.erb",
-		"/home/roland/projects/Ergo/source/team/carmen_mueller.html.erb",
-		"/home/roland/projects/Ergo/source/team/leo_pfeil.html.erb",
 		"/home/roland/projects/Ergo/source/team/ralph_thiel.html.erb",
-		"/home/roland/projects/Ergo/source/team/christina_berens.html.erb",
 		"/home/roland/projects/Ergo/source/team/claudia_zender.html.erb",
 		"/home/roland/projects/Ergo/source/kontakt.html.erb",
 		"/home/roland/projects/Ergo/source/impressum.html.erb",
@@ -286,12 +282,7 @@
 		"/C/Projects/ruby/BigBrother/app/views/dashboards/_running_replications.html.erb",
 		"/C/Projects/ruby/BigBrother/app/views/dashboards/_sql_jobs.html.erb",
 		"/C/Projects/ruby/BigBrother/app/assets/stylesheets/bootstrap.css",
-		"/C/Projects/ruby/BigBrother/app/views/sessions/new.html.erb",
-		"/C/Projects/ruby/BigBrother/app/views/sessions/not_allowed.html.erb",
-		"/C/Projects/ruby/BigBrother/app/views/dashboards/refresh_avg_call_duration_pw.js.erb",
-		"/C/Projects/ruby/BigBrother/app/views/statistic/order.html.erb",
-		"/C/Projects/ruby/BigBrother/app/views/dashboards/refresh_docimport.js.erb",
-		"/C/Projects/ruby/BigBrother/app/views/statistic/session.html.erb"
+		"/C/Projects/ruby/BigBrother/app/views/sessions/new.html.erb"
 	],
 	"find":
 	{
@@ -302,6 +293,7 @@
 		"height": 90.0,
 		"where_history":
 		[
+			"C:\\Projects\\ruby\\Ergo\\source",
 			"C:\\Projects\\ruby\\BigBrother\\app\\",
 			"C:\\Projects\\ruby\\BigBrother\\app\\views",
 			""
@@ -312,6 +304,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"therapeut",
 			"integration2",
 			"25",
 			"background-image",
@@ -430,39 +423,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "source/layouts/layout.erb",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 7947,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								321,
-								465
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
